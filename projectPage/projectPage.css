@@ -11,8 +11,16 @@
 .btnBack {
     height: 40px;
     width: 40px;
+    margin-left: 10px;
+    text-decoration: none;
+    z-index: 1;
+}
+
+.imgBtnBack {
+    height: 40px;
+    width: 40px;
     border-radius: 25%;
-    background-color: #464646;
+    background-color: #3a3a3a;
     text-decoration: none;
     z-index: 1;
 }
@@ -22,4 +30,6 @@
     border-radius: 5%;
     z-index: 1;
     position: absolute;
+    margin-top: 20px;
+    margin-left: 55px;
 }
