@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(./font/Roboto-Medium.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: Roboto;
+    color: #fff;
+}
+
+body {
+    background-color: #262626;
+    padding: 30px;
+}
+
+.textHeading
+{
+    font-size: 60px;
+    margin-bottom: -10px;
+}
+
+.blockNew {
+    overflow-x: scroll;
+    margin-top: 30px;
+    height: 800px;
+    display: flex;
+}
+
+.blockFilm {
+    height: 800px;
+    width: fit-content;
+    margin-right: 40px;
+}
+
+.imgBlockFilm {
+    height: 700px;
+    border-radius: 30px;
+}
+
+.textBlockFilm {
+    font-size: 40px;
+    margin-top: 7px;
+}
