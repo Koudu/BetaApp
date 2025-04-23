@@ -4,8 +4,23 @@
 
 .backgroundImgProgect {
     width: 390px;
-    margin-top: -25px;
+    margin-top: -145px;
     margin-left: -8px;
+    clip-path: rect(120px 390px 500px 0px);
+    z-index: -1;
+    background: #000;
+    opacity: 0.1;
+}
+
+.backgroundImgProgectGradient {
+    display: block;    
+	width: 390px;
+	height: 380px;    
+	position: absolute;
+	top: 0;      
+	left: 0;   
+	background: transparent;
+	background-image: linear-gradient(to top, #262626, #42424200)
 }
 
 .btnBack {
@@ -13,6 +28,7 @@
     width: 40px;
     margin-left: 10px;
     text-decoration: none;
+    position: absolute;
     z-index: 1;
 }
 
@@ -20,8 +36,9 @@
     height: 40px;
     width: 40px;
     border-radius: 25%;
-    background-color: #3a3a3a;
+    background-color: #313131;
     text-decoration: none;
+    position: absolute;
     z-index: 1;
 }
 
@@ -31,5 +48,11 @@
     z-index: 1;
     position: absolute;
     margin-top: 20px;
-    margin-left: 55px;
+    margin-left: 100px;
+}
+
+.textNameRu {
+    font-size: 21px;
+    margin-left: 10px;
+    margin-top: -70px;
 }
