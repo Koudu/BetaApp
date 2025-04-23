@@ -12,13 +12,26 @@
 
 body {
     background-color: #262626;
-    padding: 30px;
+    padding-left: 30px;
+}
+
+.navigationPanel {
+    position: fixed;
+    width: 750px;
+    height: 150px;
+    background-color: #313131;
+    z-index: 1;
+    display: flex;
+    border-radius: 50px;
+    margin-top: 2170px;
+    margin-left: 140px;
 }
 
 .textHeading
 {
     font-size: 60px;
     margin-bottom: -10px;
+    margin-top: 60px;
 }
 
 .blockNew {
@@ -42,4 +55,8 @@ body {
 .textBlockFilm {
     font-size: 40px;
     margin-top: 7px;
+}
+
+.space {
+    height: 200px;
 }
